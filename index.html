@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All-Country</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <header class="w-11/12 mx-auto text-center space-y-5 mt-5 mb-10">
+        <h2 class="text-2xl font-semibold">Search <span class="text-red-600">your</span> desire <span
+                class="text-red-600">country</span>:-</h2>
+        <input id="search-field" class="px-2 py-2 w-1/2 border rounded" type="text" placeholder="Search here">
+        <button onclick="loadSearchCountry()" class="bg-green-400 px-10 py-2 text-white rounded">Search</button>
+    </header>
+    <main class="w-11/12 mx-auto">
+        <h1 class="text-3xl font-bold text-center mb-5">All <span class="text-red-500">Country</span> List <span
+                class="text-red-500">!!!</span></h1>
+        <div id="country-container" class="grid grid-cols-3 gap-7">
+
+        </div>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
